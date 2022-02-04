@@ -29,10 +29,10 @@ I'm excited to learn more about ML, but **in the past five months I've been focu
 - `algorithms`;
 	- `function wrappers`
 	- `memoization` and `tabulation`
-	- 
+	
 - option-contract `class` object;
 	- with `@property` and `@[property].setter` function wrappers
-	- `__init__, __repr__, __new__,` (more to go, here!)
+	- `__init__, __repr__, __new__,`
 
 -  `Capstone-Rework` -- `streamlit` Dashboard class as a script, on a `Heroku remote server`:
 -  
