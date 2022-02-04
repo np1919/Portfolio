@@ -1,6 +1,6 @@
 # Greetings, traveler. 
 
-Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://www.linkedin.com/in/nate-poland/). PLease feel free to reach out with a message or connect with me there! 
+Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://www.linkedin.com/in/nate-poland/). Please feel free to reach out with a message or connect with me there! 
 
 I graduated from the BrainStation Data Science and Analytics bootcamp at the end of Summer 2021. I've been learning Python since Spring 2020, when I gave up my job as the lead baker/mentor at a small social enterprise sourdough bakery in Toronto. Over 5 years working there, I was involved in the restructuring of various workflows which improved quality of work for our staff; various improvements in product quality or specification; and the training and mentorship of people from diverse backgrounds and life experiences. We were financially successful, being the beneficiaries of grants towards the purchase of a new industrial oven and mixer. 
 
