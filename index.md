@@ -2,38 +2,39 @@
 
 Welcome to my Portfolio! Sorry about the mess -- we're under construction. 
 
-## Intro:
-The bootcamp experience was intense, and I learned so much about different machine learning modelling techniques. I'm excited to learn more about ML; but in the past six months I've been focused on developing my skills as a Python programmer; simple stuff like learning about Git, file systems, and remote (environments and) servers. 
+## Intro: about the process
+The bootcamp experience was intense, and I learned so much about different `machine learning modelling techniques`. 
+
+I'm excited to learn more about ML, but **in the past five months I've been focused on developing my skills as a Python programmer; as well as learning critical infrastructure rules like version control with Git, file systems, and remote environments and servers.**
 
 My work this past fall took me down a road of learning in this new, invisible world of programming and data:
-- to explore defining functions;
-	- using (batch) `json` API requests
-	- conditional logic
 
-- through dynamic programming algorithms;
-	- function wrapper
-	- memoization and tabulation
+	- to explore defining `functions`;
+		- using (batch) `json` API requests
+		- conditional logic
 
-- through to developing my own class objects
-	- with @property and @[property].setter function wrappers
-	- __init__
+	- through dynamic programming algorithms;
+		- function `wrappers`
+		- `memoization` and `tabulation`
 
-- to eventually deploying my own Main() class as a script, on a `Heroku` server using `streamlit`.
-	- developed a package, itself with an __init__ :)
+	- through to developing my own `class` objects
+		- with `@property` and `@[property].setter` function wrappers
+		- `__init__, __repr__, __new__,` (more to go, here!)
+
+	- to eventually deploying my own Main() class as a script, on a `Heroku` server using `streamlit`.
+		- developed my own package
+		- Heroku campaign app here : [https://dunnhumby-app.herokuapp.com/](https://dunnhumby-app.herokuapp.com/)
 
 I'm not all the way there yet, that's for dang sure, but I'm excited to earn an opportunity to learn from others in this fast-growing field.
 I know that data-based technologies will have a massive impact on the future, and, well -- I just love learning about stuff; languages and math, for one. 
 
-Recognizing the underlying mathematical distributions of real-world events is one thing; capturing them as data is something altogether different. Representing those distributions and using them to empower others in our community -- I believe that that is where the true value of data-based technologies will eventually be shown. 
+Recognizing the underlying mathematical distributions of real-world events is one thing; capturing them as data is something altogether different. Representing those distributions and using them to empower others in our community -- I believe that that is where the true value of data-based technologies will eventually be realized. 
 
 ## Next Steps:
 - Automate model fit/test/eval for `Capstone-Rework`
-- I hope to soon showcase some of my past work in SQL, using S3 buckets or etc. 
+- showcase some of my past work in SQL, using S3 buckets or etc. and develop new ETL systems based in SQL.
 
-
-## PHOTOS OF EACH NOTEBOOK
-
-# CAPSTONE REWORK - THE COMPLETE JOURNEY
+# CAPSTONE REWORK - THE COMPLETE JOURNEY [https://github.com/np1919/Capstone-Rework](https://github.com/np1919/Capstone-Rework)
  - developing my own Python package for ETL; 
  - a rudimentary RecommenderSystem class object; 
  - publishing a clean-data sales analysis of the products in 30 distinct advertising campaigns (before, during, and after), on Heroku using streamlit. 
