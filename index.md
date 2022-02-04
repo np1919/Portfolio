@@ -9,21 +9,21 @@ I'm excited to learn more about ML, but **in the past five months I've been focu
 
 My work this past fall took me down a road of learning in this new, invisible world of programming and data:
 
-	- to explore defining `functions`;
-		- using (batch) `json` API requests
-		- conditional logic
+- to explore defining `functions`;
+	- using (batch) `json` API requests
+	- conditional logic
 
-	- through dynamic programming algorithms;
-		- function `wrappers`
-		- `memoization` and `tabulation`
+- through dynamic programming algorithms;
+	- function `wrappers`
+	- `memoization` and `tabulation`
 
-	- through to developing my own `class` objects
-		- with `@property` and `@[property].setter` function wrappers
-		- `__init__, __repr__, __new__,` (more to go, here!)
+- through to developing my own `class` objects
+	- with `@property` and `@[property].setter` function wrappers
+	- `__init__, __repr__, __new__,` (more to go, here!)
 
-	- to eventually deploying my own Main() class as a script, on a `Heroku` server using `streamlit`.
-		- developed my own package
-		- Heroku campaign app here : [https://dunnhumby-app.herokuapp.com/](https://dunnhumby-app.herokuapp.com/)
+- to eventually deploying my own Main() class as a script, on a `Heroku` server using `streamlit`.
+	- developed my own package
+	- Heroku campaign app here : [https://dunnhumby-app.herokuapp.com/](https://dunnhumby-app.herokuapp.com/)
 
 I'm not all the way there yet, that's for dang sure, but I'm excited to earn an opportunity to learn from others in this fast-growing field.
 I know that data-based technologies will have a massive impact on the future, and, well -- I just love learning about stuff; languages and math, for one. 
