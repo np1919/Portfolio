@@ -41,7 +41,8 @@ I know that data-based technologies will have a massive impact on the future, an
 
 I'm not there yet, that's for dang sure; but I'm excited to earn an opportunity to learn from others in this fast-growing field by showcasing my work.
 
-# CAPSTONE REWORK - THE COMPLETE JOURNEY [https://github.com/np1919/Capstone-Rework](https://github.com/np1919/Capstone-Rework)
+# CAPSTONE REWORK - THE COMPLETE JOURNEY
+- Available at [https://github.com/np1919/Capstone-Rework](https://github.com/np1919/Capstone-Rework) (not in this repo)
 - Extensive EDA and data-sleuthing/munging
 - developing a Python-based package for ETL
 - a rudimentary RecommenderSystem `class` object
