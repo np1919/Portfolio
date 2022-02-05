@@ -43,13 +43,15 @@ I'm excited to learn more about ML, but **in the past five months I've been focu
 - showcase some of my past work in SQL, using S3 buckets or etc. and develop new ETL systems based in SQL.
 
 
-# ENJOY
+## ENJOY!
 
 I know that data-based technologies will have a massive impact on the future, and, well -- I just love learning about stuff; languages and math, for one. Recognizing the underlying mathematical distributions of real-world events is one thing; capturing them as data is something altogether different. Representing those distributions and using them to empower others in our community -- I believe that that is where the true value of data-based technologies will eventually be realized. 
 
 I'm not there yet, that's for dang sure; but I'm excited to earn an opportunity to learn from others in this fast-growing field by showcasing my work.
 
-# CAPSTONE REWORK - THE COMPLETE JOURNEY
+# PROJECTS
+
+## CAPSTONE REWORK - THE COMPLETE JOURNEY
 
 - Available at [https://github.com/np1919/Capstone-Rework](https://github.com/np1919/Capstone-Rework) (not in this repo)
 - Extensive EDA and data-sleuthing/munging
@@ -59,7 +61,7 @@ I'm not there yet, that's for dang sure; but I'm excited to earn an opportunity 
  
  This rework is a huge project (to my experience thus far!), so if you're interested; please check it out. It's a WIP so that's all I'll say here. 
 
-# FUNCTIONS for stock analysis
+## FUNCTIONS for stock analysis
 
 - json API batch requests 
 - trend-reversal function
@@ -67,27 +69,27 @@ I'm not there yet, that's for dang sure; but I'm excited to earn an opportunity 
 
 No-commission trading apps were coming in vogue before the beginning of the pandemic, and have been mainstream since. It was an easy jump, when the course finished, to try to apply what I had been learning to stock data.
 
-## Time-series motivations
+### Time-series motivations
 
 I actually wanted to learn more about timeseries -- maybe beat the market just a bit, right? but when I got to tensorflow, I realized that my technical knowledge needed to improve in order to get the most from that time -- even from a high level. This notebook is a conglomeration of functions, some more useful than others, which were the results of my work. 
 
 I'm excited to learn more about window-related time-series modelling, but when I started defining how to make my own windows, I knew I had gone too far. There are platforms and packages which people far smarter than me have set up to perform precisely those tasks -- I just need to learn how to use them effectively. 
 
-# ALGORITHMS using dynamic programming
+## ALGORITHMS using dynamic programming
 
 - function wrapper
-- _\_default__ dict(); the unbound `class` definition (?)
+- _\_default__  dict(); the unbound `class` definition (?)
 - big O notation; `time` and `space` complexity of computation.
     
-This is a freecodecamp video available on youtube which I actually started working on to prepare for the bootcamp. Having some background Python knowledge allowed me to see so much potential (for iteration) in the simple model codes -- that we were exposed to (in terms of logistic and linear regression, at least). With my new knowledge of pandas and numpy, the tabulation section was a breeze.
+This is a freecodecamp video available on youtube which I actually started working on to prepare for the bootcamp. Having some background Python knowledge allowed me to see so much potential (for iteration) in the simple model codes that we were exposed to (in terms of logistic and linear regression, at least). With my new knowledge of pandas and numpy, the tabulation section was a breeze.
 
 - **WIP: `graph algorithms` with `queues` and `stacks`**
     - node structure using simple dictionaries 
 
-# `class` OBJECTS AND INHERITANCE; portfolio, holdings, and option-contract objects
+## `class` OBJECTS AND INHERITANCE; portfolio, holdings, and option-contract objects
 
-- leveraging yfinance to populate options spreads
-- attempts at inheritance-based class definitions, evnetually using properties
+- leveraging `yfinance` to populate options spreads
+- inheritance-based class definitions, properties and setters
 - callable plotting functionality
 
 Having learned a little bit about functions, I tried to apply that knowledge to some sort of inherited `class` structure; in this case, a [ strategy ]Portfolio creating ->[ STOCK ]Holdings objects -> [ STOCK ]Option Contracts. I still have a lot to learn about types and instances; polymorphism and inheritance; but I feel I made a good start with this work -- it uses @property decorators and @[ property ].setters. 
