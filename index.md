@@ -51,19 +51,10 @@ I'm not there yet, that's for dang sure; but I'm excited to earn an opportunity 
 
 # PROJECTS
 
-## CAPSTONE REWORK - THE COMPLETE JOURNEY
-
-- Available at [https://github.com/np1919/Capstone-Rework](https://github.com/np1919/Capstone-Rework) (not in this repo)
-- Extensive EDA and data-sleuthing/munging
-- developing a Python-based package for ETL
-- a rudimentary RecommenderSystem `class` object
-- publishing a clean-data sales analysis of the products in 30 distinct advertising campaigns (before, during, and after), on `Heroku` using `streamlit`. 
- 
- This rework is a huge project (to my experience thus far!), so if you're interested; please check it out. It's a WIP so that's all I'll say here. 
 
 ## FUNCTIONS for stock analysis
 
-- json API batch requests 
+- `json API` batch requests 
 - trend-reversal function
 - conditional logic 
 
@@ -78,7 +69,7 @@ I'm excited to learn more about window-related time-series modelling, but when I
 ## ALGORITHMS using dynamic programming
 
 - function wrapper
-- _\_default__  dict(); the unbound `class` definition (?)
+- understanding the _\_default__  dict() in a class definition
 - big O notation; `time` and `space` complexity of computation.
     
 This is a freecodecamp video available on youtube which I actually started working on to prepare for the bootcamp. Having some background Python knowledge allowed me to see so much potential (for iteration) in the simple model codes that we were exposed to (in terms of logistic and linear regression, at least). With my new knowledge of pandas and numpy, the tabulation section was a breeze.
@@ -90,6 +81,16 @@ This is a freecodecamp video available on youtube which I actually started worki
 
 - leveraging `yfinance` to populate options spreads
 - inheritance-based class definitions, properties and setters
-- callable plotting functionality
+- plotting options contract spreads
 
 Having learned a little bit about functions, I tried to apply that knowledge to some sort of inherited `class` structure; in this case, a [ strategy ]Portfolio creating ->[ STOCK ]Holdings objects -> [ STOCK ]Option Contracts. I still have a lot to learn about types and instances; polymorphism and inheritance; but I feel I made a good start with this work -- it uses @property decorators and @[ property ].setters. 
+
+## CAPSTONE REWORK - THE COMPLETE JOURNEY
+
+- Available at [https://github.com/np1919/Capstone-Rework](https://github.com/np1919/Capstone-Rework) (not in this repo)
+- Extensive EDA and data-sleuthing/munging
+- developing a Python-based package for ETL
+- a rudimentary RecommenderSystem `class` object
+- publishing a clean-data sales analysis of the products in 30 distinct advertising campaigns (before, during, and after), on `Heroku` using `streamlit`. 
+ 
+ This rework is a huge project (to my experience thus far!), so if you're interested; please check it out. It's a WIP so that's all I'll say here. 
