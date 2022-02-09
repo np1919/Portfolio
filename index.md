@@ -3,19 +3,19 @@
 Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://www.linkedin.com/in/nate-poland/). Please feel free to reach out with a message or connect with me there! 
 
 ## Recent Work
--  `stock functions`;
+-  stock functions;
 	- using `json API` requests
 	- conditional logic
 
-- `algorithms`;
+- algorithms;
 	- `function wrappers`
 	- `memoization` and `tabulation`
 	
-- option-contract `class` object;
+- option-contract class object;
 	- with `@property` and `@[property].setter` function wrappers
 	- `__init__, __repr__, __new__,`
 
--  `Capstone-Rework` -- `streamlit` Dashboard class as a script, on a `Heroku remote server`:
+-  Capstone-Rework -- streamlit Dashboard class as a script, on a Heroku remote server:
 -  
 	- Heroku campaign app here : [https://dunnhumby-app.herokuapp.com/](https://dunnhumby-app.herokuapp.com/)
 	
