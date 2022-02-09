@@ -22,12 +22,6 @@ Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm availabl
 ## Next Steps:
 - Automate model fit/test/eval for `Capstone-Rework`
 - showcase some of my past work in SQL, using S3 buckets or etc. and develop new ETL systems based in SQL.
-- 
-## ENJOY!
-
-I know that data-based technologies will have a massive impact on the future, and, well -- I just love learning about stuff; languages and math, for one. Recognizing the underlying mathematical distributions of real-world events is one thing; capturing them as data is something altogether different. Representing those distributions and using them to empower others in our community -- I believe that that is where the true value of data-based technologies will eventually be realized. 
-
-I'm not there yet, that's for dang sure; but I'm excited to earn an opportunity to learn from others in this fast-growing field by showcasing my work.
 
 # PROJECT DESCRIPTIONS
 ## FUNCTIONS for stock analysis
@@ -91,4 +85,11 @@ I graduated from the BrainStation Data Science and Analytics bootcamp at the end
 The bootcamp experience was intense, but I learned so much about different `machine learning modelling techniques` that it totally blew my mind thinking about organizing workflows and automating processes -- but also just how amazing it is that the world around us can be represented through mathematics and visualization -- that as humans we're getting closer to understanding the true nature of the world around us and ourselves.
 
 I'm excited to learn more about ML, but **in the past five months I've been focused on developing my skills as a Python programmer; as well as learning critical infrastructure rules like version control with Git, file systems, and remote environments and servers.** My work this past fall took me down a road of learning in this new, invisible world of programming and data, where although you can't smell, touch, or taste your ingredients -- with the right technique, you might just be able to make them sing.
+
+I know that data-based technologies will have a massive impact on the future. Recognizing the underlying mathematical distributions of real-world events is one thing; capturing them as data is something altogether different. Representing those distributions and using them to empower others in our community -- I believe that that is where the true value of data-based technologies will eventually be realized. 
+
+I'm not there yet, that's for dang sure! But I'm excited to earn an opportunity to learn from others in this fascinating field by showcasing my work.
+- 
+## ENJOY!
+
 
