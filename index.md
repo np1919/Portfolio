@@ -38,6 +38,8 @@ I actually wanted to learn more about timeseries -- maybe beat the market just a
 
 I'm excited to learn more about window-related time-series modelling, but when I started defining how to make my own windows, I knew I had gone too far. There are platforms and packages which people far smarter than me have set up to perform precisely those tasks -- I just need to learn how to use them effectively. 
 
+Update Feb 28 -- I've implemented a SalesTable object in my capstone which returns sales-over-timeseries for sales columns or section sales columns with appropriate aggregate information (rankings,labels, other features) attached by a common id key! I hope to use this (thin wrapper :)) class to improve the workflows of my data-related projects!
+
 ## ALGORITHMS using dynamic programming
 
 - function wrapper
@@ -59,36 +61,24 @@ Having learned a little bit about functions, I tried to apply that knowledge to 
 
 ## CAPSTONE REWORK - THE COMPLETE JOURNEY
 
-- Available at [https://github.com/np1919/Capstone-Rework](https://github.com/np1919/Capstone-Rework) (not in this repo)
+- Available at [https://github.com/np1919/Capstone-Rework](https://github.com/np1919/DTCJ) (not in this repo)
+- grocery store sales data for 2500 households over 2 years.
 - Extensive EDA and data-sleuthing/munging
-- developing a Python-based package for ETL
+- developing a Python-based package for cleaning, extracting, transforming, and testing data
+- `SalesTable` object
 - a rudimentary RecommenderSystem `class` object
 - publishing a clean-data sales analysis of the products in 30 distinct advertising campaigns (before, during, and after), on `Heroku` using `streamlit`. 
  
  This rework is a huge project (to my experience thus far!), so if you're interested; please check it out. It's a WIP so that's all I'll say here. 
  
  
-# About Me 
-## Old friends
+# About Me
+I'm excited to learn more about ML, but **in the past five months I've been focused on developing my skills as programmer by learning critical infrastructure tools like version control with Git, file systems, and remote environments and servers.** I have also done some deeper investigations into Python, which I've been studying for almost two years now. My work with Python this past fall gave me a solid footing for my "spike" learning into this new, invisible world of programming and data. 
 
-I've been learning Python since Spring 2020, when I gave up my job as the lead baker/mentor at a small social enterprise sourdough bakery in Toronto. Over 5 years working there, I was involved in the restructuring of various workflows which improved quality of work for our staff; various improvements in product quality or specification; and the training and mentorship of people from diverse backgrounds and life experiences. We were financially successful, being the beneficiaries of grants towards the purchase of a new industrial oven and mixer. 
-
-I could work every station in the place, and sometimes I worked more than one at a time, or for extended hours -- on long fridays I would work the ovens from early morning until late afternoon (and occasionally until midnight, packaging); scoring the bread, firing it inside using an apparatus which rolled up and down the front of the oven; and finally removing the fresh-baked loaves. My team relied on my ability and I actively tried to make their jobs easier. They knew that if they needed something covered or had questions, that I was someone they could come to. In exchange, they gave me their absolute best -- I knew I could count on them, too.
-
-Unfortunately, I developed tennis elbow as the byproduct of a serious back injury I sustained in my first year there, and so when covid hit, I knew it was time to move on.  My staff knew their jobs front to back and had families for which they were providing. I needed time to rest my body. Python was one way to keep my mind active and engaged, as the lockdowns dragged on. I was able to volunteer over the winter 2020/21, with ESN and Toronto Tiny Shelters, as well as "stage-ing" with a few bakeries around the city, maybe just to see how St. John's might have matched up. I'd take my old team against any of em, any day of the week; even Saturday (which was always a day off for us). We might not have all shared the same native language, but we worked together like poetry -- complementing each other's strengths, and covering for each other's weaknesses.
-
-## New Beginnings
-
-Moving into a new career is something I've embraced whole-heartedly; I love the opportunity to learn more math; learn new "languages". I'm familiar with a keyboard; and believe I now have the skills I need to be a contributing (if novice) member of a team. In this portfolio I'll showcase some of the work I've been doing since the bootcamp ended. 
-
-I graduated from the BrainStation Data Science and Analytics bootcamp at the end of Summer 2021. 
-The bootcamp experience was intense, but I learned so much about different `machine learning modelling techniques` that it totally blew my mind thinking about organizing workflows and automating processes -- but also just how amazing it is that the world around us can be represented through mathematics and visualization -- that as humans we're getting closer to understanding the true nature of the world around us and ourselves.
-
-I'm excited to learn more about ML, but **in the past five months I've been focused on developing my skills as a Python programmer; as well as learning critical infrastructure rules like version control with Git, file systems, and remote environments and servers.** My work this past fall took me down a road of learning in this new, invisible world of programming and data, where although you can't smell, touch, or taste your ingredients -- with the right technique, you might just be able to make them sing.
-
+# Data Lor
 I know that data-based technologies will have a massive impact on the future. Recognizing the underlying mathematical distributions of real-world events is one thing; capturing them as data is something altogether different. Representing those distributions and using them to empower others in our community -- I believe that that is where the true value of data-based technologies will eventually be realized. 
 
-I'm not there yet, that's for dang sure! But I'm excited to earn an opportunity to learn from others in this fascinating field by showcasing my work.
+I'm excited to share my work, and to learn from others in this truly fascinating field. If you have any questions about my work or want to talk about data ; -science, -engineering; or MLOps or similar, please reach out!
 - 
 ## ENJOY!
 
