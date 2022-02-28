@@ -3,25 +3,28 @@
 Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://www.linkedin.com/in/nate-poland/). Please feel free to reach out with a message or connect with me there! 
 
 ## Recent Work
--  stock functions;
+-  stock functions (Nov 2021);
 	- using `json API` requests
 	- conditional logic
 
-- algorithms;
+- algorithms (Nov-Dec 2021);
 	- `function wrappers`
 	- `memoization` and `tabulation`
 	
-- option-contract class object;
+- option-contract class object (Dec 2021);
 	- with `@property` and `@[property].setter` function wrappers
 	- `__init__, __repr__, __new__,`
 
--  Capstone-Rework -- streamlit Dashboard class as a script, on a Heroku remote server:
--  
+-  DTCJ :
+	- Sales data for purchases by 2500 households over 2 year span
+	- Back-end API in Python project package
+		- class-based SalesTable and RecommenderSystem wrapper objects
+		- Visualizations (and cleaning) and Analysis in Pandas
 	- Heroku campaign app here : [https://dunnhumby-app.herokuapp.com/](https://dunnhumby-app.herokuapp.com/)
 	
 ## Next Steps:
 - Automate model fit/test/eval for my 'deep dive' into class-based Data architecture and unit tests with Python and Pandas...[https://github.com/np1919/DTCJ](https://github.com/np1919/DTCJ)
-- Revert the whole thing back to SQL. Put it on the cloud?
+- Revert the whole thing back to SQL.
 
 # PROJECT DESCRIPTIONS
 ## FUNCTIONS for stock analysis
