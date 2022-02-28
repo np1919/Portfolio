@@ -43,7 +43,7 @@ Update Feb 28 -- I've implemented a SalesTable object in my capstone which retur
 ## ALGORITHMS using dynamic programming
 
 - function wrapper
-- understanding the _\_default__  dict() in a class definition
+- understanding the _\_default_\_  dict() in a class definition (not to be confused with the defaultdict!)
 - big O notation; `time` and `space` complexity of computation.
     
 This is a freecodecamp video available on youtube which I actually started working on to prepare for the bootcamp. Having some background Python knowledge allowed me to see so much potential (for iteration) in the simple model codes that we were exposed to (in terms of logistic and linear regression, at least). With my new knowledge of pandas and numpy, the tabulation section was a breeze.
