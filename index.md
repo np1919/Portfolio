@@ -20,8 +20,8 @@ Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm availabl
 	- Heroku campaign app here : [https://dunnhumby-app.herokuapp.com/](https://dunnhumby-app.herokuapp.com/)
 	
 ## Next Steps:
-- Automate model fit/test/eval for `Capstone-Rework`
-- showcase some of my past work in SQL, using S3 buckets or etc. and develop new ETL systems based in SQL.
+- Automate model fit/test/eval for my 'deep dive' into class-based Data architecture and unit tests with Python and Pandas...[https://github.com/np1919/DTCJ](https://github.com/np1919/DTCJ)
+- Revert the whole thing back to SQL. Put it on the cloud?
 
 # PROJECT DESCRIPTIONS
 ## FUNCTIONS for stock analysis
