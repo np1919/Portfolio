@@ -1,8 +1,11 @@
 # Greetings, traveler. 
 
-Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://www.linkedin.com/in/nate-poland/). Please feel free to reach out with a message or connect with me there! 
+Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/ned-poland/](https://www.linkedin.com/in/ned-poland/). Please feel free to reach out with a message or connect with me there! 
 
-## Recent Work
+2022-07-01
+At my new position as a Reporting Specialist, I've gained valuable experience with Tableau, Excel, and R. In my free time, I've developed functions to handle interactions with our MySQL or PostgreSQL databases (SQL wrappers), in both R and now Python.
+
+## Summary of Portfolio
 -  stock functions (Nov 2021);
 	- using `json API` requests
 	- conditional logic
@@ -76,9 +79,8 @@ Having learned a little bit about functions, I tried to apply that knowledge to 
  
  
 # About Me
-I'm excited to learn more about ML, but **in the past five months I've been focused on developing my skills as programmer by learning critical infrastructure tools like version control with Git, file systems, and remote environments and servers.** I have also done some deeper investigations into Python, which I've been studying for almost two years now. My work with Python this past fall gave me a solid footing for my "spike" learning into this new, invisible world of programming and data. 
+I'm excited to learn more about ML, but **in the six months following my graduation from BrainStation's full-time data bootcamp, I focused on developing my skills as programmer by learning critical infrastructure tools like version control with Git, file systems, and remote environments and servers.** I have also done some deeper investigations into Python, which I've been studying since Spring 2020. My work with Python in fall 2021 gave me a solid footing for my "spike" learning into this new, ethereal world of programming and data. 
 
-# Data Lor
 I know that data-based technologies will have a massive impact on the future. Recognizing the underlying mathematical distributions of real-world events is one thing; capturing them as data is something altogether different. Representing those distributions and using them to empower others in our community -- I believe that that is where the true value of data-based technologies will eventually be realized. 
 
 I'm excited to share my work, and to learn from others in this truly fascinating field. If you have any questions about my work or want to talk about data ; -science, -engineering; or MLOps or similar, please reach out!
