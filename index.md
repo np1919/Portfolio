@@ -1,11 +1,28 @@
 # Greetings, traveler. 
 
-Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/ned-poland/](https://www.linkedin.com/in/ned-poland/). Please feel free to reach out with a message or connect with me there! 
+Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://www.linkedin.com/in/nate-poland/). Please feel free to reach out with a message or connect with me there! 
 
 2022-07-01
-At my new position as a Reporting Specialist, I've gained valuable experience with Tableau, Excel, and R. In my free time, I've developed functions to handle interactions with our MySQL or PostgreSQL databases (SQL wrappers), in both R and now Python.
+At my previous position as a Reporting Specialist, I gained valuable experience with Tableau, Excel, and R. 
+
+In my free time, and then as team lead for the department's Python code base, I was able to develop a Python class to consolidate the typical data extraction process (from two Amazon RedShift databases, and a third MySQL database), allowing for simplified code maintenance and extensibility through the use of child-scripts.
 
 ## Summary of Portfolio
+
+- Sudoku Game Solver
+  	- class to solve Sudoku via human-readable logic (not random imputation)
+   	- inheritance-based NineCell for Rows, Columns, and Nonograms
+   	  
+- Python Quiz Bot
+  	- script-based quiz bot
+  	- to practice list and dict indexing, before moving on to pandas etc. dataframe indexing
+	- developed in my off-time while working as Python team lead
+   
+- FastAPI with SQLAlchemy ORM and Pydantic (dataclasses)
+	- Defined database structure (SQLModel tables/SQLAlchemy declarative models) interacts cleanly 
+   	 with the API transaction schemas defined by Pydantic and FastAPI. 
+	 
+
 -  stock functions (Nov 2021);
 	- using `json API` requests
 	- conditional logic
