@@ -1,29 +1,8 @@
-### TOOLS (use @LRU cache?)
-
-def wrapper(func, m, n):
-    '''making my own cache'''
-    memo = dict() # make a new dictionary
-    return func(m, n, memo=memo) # pass it to the named variable memo
-
+### TOOLS
 
 ### RECURSIVE/MEMOIZATION 
 
-
-# def sub_1(m):
-#     ''' subtract 1 from m until you reach 0'''
-    
-#     # Base Case; 
-#     # m reaches 0.
-#     if m == 0:
-#         return True
-#     if m > 0:
-#         # verbose
-#         print(m, end='\t')       
-#         # call the function inside itself (recursively). 
-#         return sub_1(m-1)
-
-    
-def can_sum(m:int, n:list, memo:dict()):
+def can_sum(m:int, n:list, memo:dict):
     """ accepts:
                 m: integer
                 n: list of integers
@@ -45,8 +24,6 @@ def can_sum(m:int, n:list, memo:dict()):
     if m in memo:
         return memo[m]
 
-    
-    
     #### Branching/Recursive Logic;
             # Iterate through integers in `n`
     for element in n:
@@ -66,8 +43,8 @@ def can_sum(m:int, n:list, memo:dict()):
             return False
         
         
-        
-def grid_traveler(m:int, n:int, memo:dict()):
+ 
+def grid_traveler(m:int, n:int, memo:dict):
     '''beginning at the top left of a 2-D grid, 
         and moving only DOWN or to the RIGHT;
          HOW MANY WAYS can you travel to the goal?'''
@@ -95,8 +72,7 @@ def grid_traveler(m:int, n:int, memo:dict()):
 
     return total
 
-
-def how_sum(m:int, n:list, memo:dict()):
+def how_sum(m:int, n:list, memo:dict):
     '''return one possible combination of sub-arrays in `n` which sum to produce `m` '''
     # Base case; you've removed a sub-array from m and m is now 0; you win.
     if m == 0:
@@ -121,8 +97,8 @@ def how_sum(m:int, n:list, memo:dict()):
         else:                           # if the recursive call finishes and has no hits, this node is also a dud.
             memo[m] = None
             
-            
-def best_sum(m:int, n:list, memo:dict()):
+ 
+def best_sum(m:int, n:list, memo=dict):
     """accept:
         m: int -> the target sum
         n: list: -> a list of integers with which to create the sum
@@ -158,31 +134,11 @@ def best_sum(m:int, n:list, memo:dict()):
          
             memo[m] = shortest # store in memory
     
-    return shortest # return the shortest combination.             
-          
-    
-    
-    
-    #### Branching/Recursive Logic;
-            # Iterate through integers in `n`
-    for element in n:
-            # subtract `element` from m. Pass the remainder into a recursive call.
-        remainder = m - element
-            # calculate that branch/node;
-        result = can_sum(remainder, n, memo)
-        
-            # if ever a node reaches 0, we can return True early. --> we Can Sum to the target. 
-        if  result == True:
-            memo[m] = True
-            return True
-        else:
-            # if not, return False. Memo-ize in either case. As long as a recursive call is still running from this branch, 
-            # the value at this stage of `m` will not be set to False in the dictionary
-            memo[m] = False
-            return False
+    return shortest # return the shortest combination. 
 
-        
-def can_construct(m:str, n:list, memo=dict()):
+    
+ 
+def can_construct(m:str, n:list, memo:dict):
     """ define a function can_construct:
     accepts:
         `m` : a sequence
@@ -234,7 +190,7 @@ def all_construct(m, n):
         # container to hold all possible combinations
     results = []
     for word in n:
-        if m.startswith(word): # for this 'suffix', `m`;
+        if m.startswith(word): # for this suffix, `m`; and prefix, `word`
             results += [[word] + x for x in all_construct(m[len(word):], n)] 
                         # prepend word to each inner list of the list returned by the recursive call
             # for each nested list returned from the recursive call, add this word to that list and pass 

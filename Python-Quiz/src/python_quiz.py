@@ -38,8 +38,8 @@ class PythonQuiz(ValuesGenerator):
                            'Guess the len()' : self.guess_the_len,
                            'Guess the index' : self.guess_the_index,
                            'Type Methods Multiple Choice' : self.type_methods_multiple_choice,
-                           'Nested `list` indexing':self.guess_the_index_nested,
-                           'Nested `dict` indexing practice':self.nested_dict_indexing,
+                        #    'Nested `list` indexing':self.guess_the_index_nested,
+                        #    'Nested `dict` indexing practice':self.nested_dict_indexing,
                            }
         
         
@@ -359,63 +359,59 @@ class PythonQuiz(ValuesGenerator):
                     break
   
       
-    ### GAME G
-    def guess_the_index_nested(self, dims=2,height=4,width=4, accepted_values=[tuple,set,float,int,str,bool]):
-        response = ''
-        while response not in self.exit_strings: 
+    # ### GAME G
+    # def guess_the_index_nested(self, dims=2,height=4,width=4, accepted_values=[tuple,set,float,int,str,bool]):
+    #     response = ''
+    #     while response not in self.exit_strings: 
 
-            base = self.make_matrix(dims=dims,height=height, width=width, types=accepted_values)
-            pprint.pprint(base) # only works in anaconda
-            x = random.choice(len(height))
-            y = random.choice(len(width))
+    #         base = self.make_matrix(dims=dims,height=height, width=width, types=accepted_values)
+    #         pprint.pprint(base) # only works in anaconda
+    #         x = random.choice(len(height))
+    #         y = random.choice(len(width))
             
-            correct_value = eval(base[x][y])
-            if type(correct_value) == str:
-                correct_value = f"'{correct_value}'"
+    #         correct_value = eval(base[x][y])
+    #         if type(correct_value) == str:
+    #             correct_value = f"'{correct_value}'"
                 
-            #response = input(f"What is the row and column `x,y` (0-indexed) of {correct_value}? ")
-            response = input(f"If the 2-D matrix is called `base`, how would you index for {correct_value}? ")
+    #         #response = input(f"What is the row and column `x,y` (0-indexed) of {correct_value}? ")
+    #         response = input(f"If the 2-D matrix is called `base`, how would you index for {correct_value}? ")
 
-            if (eval(response) == correct_value):
-                print('you got the right value')
-                self.increment_score()
+    #         if (eval(response) == correct_value):
+    #             print('you got the right value')
+    #             self.increment_score()
                 
-            if response not in self.exit_strings:
-                self.increment_tries()
+    #         if response not in self.exit_strings:
+    #             self.increment_tries()
 
-            else:
-                break    
+    #         else:
+    #             break    
 
 
-    ### GAME H
-    def nested_dict_indexing(self, rows=4, size=4):
-        response = ''
-        key_type = int
-        while response not in self.exit_strings:
-            
+    # ### GAME H
+    # def nested_dict_indexing(self, rows=4, size=4):
+    #     response = ''
+    #     key_type = int
+    #     while response not in self.exit_strings:
 
-            if key_type == str:
-                key_type = int
-            elif key_type == str:
-                key_
-            base, first_index, second_index, value = self.keys_and_values_nested(outer_keys=key_type,
-                                                                                rows=rows,
-                                                                                size=size)
-            pprint.pprint(base)
-            response = input(f"If this nested dictionary is called `base`, what is the correct way to index for value `{value}`? ")
-            if response in self.exit_strings:
-                break
-            try:
-                response = eval(response)
-            except:
-                response = f'{response}'
-            #print(response,  f'base[{first_index}][{second_index}]' )
-            if response == value:#f'base[{first_index}][{second_index}]':
-                pprint.pprint('**** You Win ****!')
-                self.increment_score()
-            if response not in self.exit_strings:
-                self.increment_tries()
-
+                
+    #         base, first_index, second_index, value = self.keys_and_values_nested(outer_keys=key_type,
+    #                                                                             rows=rows,
+    #                                                                             size=size)
+    #         pprint.pprint(base)
+    #         response = input(f"If this nested dictionary is called `base`, what is the correct way to index for value `{value}`? ")
+    #         if response in self.exit_strings:
+    #             break
+    #         try:
+    #             response = eval(response)
+    #         except:
+    #             response = f'{response}'
+    #         #print(response,  f'base[{first_index}][{second_index}]' )
+    #         if response == value:#f'base[{first_index}][{second_index}]':
+    #             self.increment_score()
+    #         if response not in self.exit_strings:
+    #             self.increment_tries()
+    #         else:
+    #             break
 #####################################################################################
  
 

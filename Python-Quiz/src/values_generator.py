@@ -183,8 +183,7 @@ class ValuesGenerator:
         if int == outer_keys:
             base = dict(enumerate([self.simple_dict(size=size) for i in range(rows)]))
         elif str == outer_keys:
-            base = dict([(self.make_str(force_length=1), self.simple_dict(size=size)) for i in range(rows)])   
-            
+            base = dict([(self.make_str(force_length=1), self.simple_dict(size=size)) for i in range(rows)])    
         dict_selection = random.choice([x for x in base.keys()]) 
         pair_selection = random.choice([x for x in base[dict_selection].keys()]) 
         return base, dict_selection, pair_selection, base[dict_selection][pair_selection]
