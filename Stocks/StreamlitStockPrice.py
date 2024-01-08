@@ -30,6 +30,14 @@ class Main():
 
         fig, ax, up_reversals, down_reversals = plot_mean_reversals(ticker_symbol=ticker_symbol, start_date=start_date, end_date=end_date, short_ma=short_ma, long_ma=long_ma, show_bbs=show_bbs)
         
+        st.pyplot(fig)
+
+
+if __name__ == '__main__':
+    Main()
+
+
+
         # reversal_points = st.columns(2)
         # ups = pd.DataFrame(up_reversals, columns=['Date','Reversal Price'])
         # downs = pd.DataFrame(down_reversals, columns=['Date', 'Reversal Price'])
@@ -63,8 +71,3 @@ class Main():
         # except:
         #     st.write(f'No Downwards Mean Reversals Found For {ticker_name}')  
         # Plot Figure
-        st.pyplot(fig)
-
-
-if __name__ == '__main__':
-    Main()

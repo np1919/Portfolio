@@ -10,11 +10,8 @@ class PythonQuiz(ValuesGenerator):
             
     def __init__(self):
         
+        self.exit_strings = ['exit', 'exit()', 'quit', 'quit()', 'stop']
 
-        self.exit_strings = ['exit', 'exit()', 'quit', 'quit()',]
-
-        
-        
         ValuesGenerator.__init__(self) # inherit the ValuesGenerator
 
         self._total_score = 0
@@ -25,16 +22,11 @@ class PythonQuiz(ValuesGenerator):
         self.immutable_types = [bool, str, int, float, tuple]
         self.mutable_types = [list, dict, set]
         self.iterable_types = [str, tuple, set, list, dict] # bool, int, and float types are NOT ITERABLE --> use a pandas Series, or even a list to construct data
-        
-        
-        self.reserved_words = ['False','def','if','raise','None','del','import','return','True','elif','in','try','and','else','is','while',
-                                  'as','except','lambda','with','assert','finally','nonlocal','sum', 'sorted', 'any', 'all', 'max', 'min',
-                                  'yield','break','for','not','class','form','or','continue','global','pass', 'zip', 'enumerate']
 
     # hidden variable, must be manually updated
         self._all_games = {'Guess the Output Type': self.guess_the_output_type,
                            'Input code to find out the type' : self.input_a_type,
-                           'Simple Multiple Choice' : self.simple_multiple_choice,
+                           'Guess the Type Multiple Choice' : self.simple_multiple_choice,
                            'Guess the len()' : self.guess_the_len,
                            'Guess the index' : self.guess_the_index,
                            'Type Methods Multiple Choice' : self.type_methods_multiple_choice,
@@ -98,26 +90,37 @@ class PythonQuiz(ValuesGenerator):
     @property
     def score(self):
         return self._total_score
+    @score.setter
+    def score(self, new):
+        print('**** Correct! ****')
+        self._total_score = new
+        self.tries += 1
+
     
     @property
     def tries(self):
         return self._total_tries
+    @tries.setter
+    def tries(self, new):
+        self._total_tries = new
+        print(f'Your score is now {self.score} out of {self.tries}')
+        print()
 
     @property
     def all_types(self):
         return self.mutable_types + self.immutable_types
     
-    def increment_score(self):
-        print('**** Correct! ****')
-        self._total_score += 1
+    # def increment_score(self):
+    #     self._total_score += 1
+    #     self.tries+= 1
     
-    def increment_tries(self):
-        self._total_tries += 1
-        self.response_statement()
+    # def increment_tries(self):
+    #     self._total_tries += 1
+    #     self.response_statement()
 
-    def response_statement(self):
-        print(f'Your score is now {self.score} out of {self.tries}')
-        print()
+    # def response_statement(self):
+    #     print(f'Your score is now {self.score} out of {self.tries}')
+    #     print()
 
     # GAME A #   
     def guess_the_output_type(self, types=[str,int,float,tuple,list,set,dict]):
@@ -139,16 +142,16 @@ class PythonQuiz(ValuesGenerator):
             # get the answer
             response = input(f"What is the __name__ of the type above?: ")
             
+            if response in self.exit_strings:
+                break
             # scoring
-            if response == answer.__name__:
+            elif response == answer.__name__:
                 print(f"{question} is a {answer}. You picked {response}")
-                self.increment_score()
+                self.score += 1
 
             # response loop
-            if response not in self.exit_strings:
-                self.increment_tries()
             else:
-                break
+                self.tries+= 1
 
 
     # GAME B #
@@ -162,20 +165,21 @@ class PythonQuiz(ValuesGenerator):
             try:
                 response = eval(response)
             except:
-                print(response, "failed")
-
+                print(response, "failed. If you meant to enter a string, use quotation marks!")
                 if response in self.reserved_words:
-                    print(f'{response} is a reserved word in Python')
-                print('Woops, converting that to a string. Did you mean to enclose that in quotes?')
-                response = f'"{response}"'
+                    print(f'{response} is a reserved word in Python. Unfortunately it cannot be evaluated with type() or isinstance() -- and will show up here as a string.')
+                    #print('Converting that to a string. Did you mean to enclose that in quotes?')
+                    response = f'"{response}"'
 #             if response in self.exceptions:
 #                 print('thats a reserved name in python!')
 #                 if response in self.symbols:
 #                     print('almost all symbols can be used in Python syntax, one way or another -- even in Pandas')
 #                 if response in self.reserved_names:
 #                     print('that name already has a definition in Python syntax')
-
-            print(f"`{response}` is a {type(response)}. Nice!")
+            if type(response) == str:
+                print(f"`'{response}'` is a {type(response)}. Nice!")
+            else:
+                print(f"`{response}` is a {type(response)}. Nice!")
             print()
 
     # GAME C #
@@ -195,38 +199,41 @@ class PythonQuiz(ValuesGenerator):
             [print(x) for x in sorted(output_dict.items())]
             print()
             response = input("Select your answer: ")
-            if response == right_answer:
-                self.increment_score()
-
             if response in self.exit_strings:
                 break
+            elif response == right_answer:
+                self.score += 1
             else:
-                self.increment_tries()
-                output_dict.clear()
+                self.tries+= 1
+            output_dict.clear()
 
 
     ## GAME D ###
     def guess_the_len(self):
         response = ''
         while response not in self.exit_strings:
+            print()
             # generate an iterable value (something with a length)
-            a = random.choice([self.simple_value(types=[x]) for x in self.iterable_types])
+            value = self.simple_value(types=[list, set, dict, tuple])
             # add quotes if its a string
-            if type(a) == str:
-                print(f"'{a}'")
+            if type(value) == str:
+                print(f"'{value}'")
             else:
-                print(a)
+                print(value)
             # ask the question
-            response = input(f"What is the len() of the above data container? Hint: it's a {type(a)} ")
-
-            # scoring
-            if len(a) == int(response):
-                self.increment_score()
+            response = input(f"What is the len() of the above data container? Hint: it's a {type(value)} ")
+     
             #
             if response in self.exit_strings:
                 break
             else:
-                self.increment_tries()
+                print(f"{value} is of length {len(value)}.")
+            # scoring
+            if len(value) == int(response):
+                self.score += 1
+            else:
+                self.tries += 1
+
 
     ## GAME E ##   
     def guess_the_index(self):
@@ -252,14 +259,15 @@ class PythonQuiz(ValuesGenerator):
             printed_value = temp[key]
             if type(printed_value) == str:
                 printed_value = f"'{printed_value}'"
+
             response = input(f"What is the index of {printed_value} in the above container? Hint: the container is a {type(temp)} ")
             print()
-            if temp[eval(response)] == temp[key]:
-                self.increment_score()
-            if response not in self.exit_strings:
-                self.increment_tries()
-            else:
+            if response in self.exit_strings:
                 break
+            if temp[eval(response)] == temp[key]:
+                self.score += 1
+            else:
+                self.tries += 1
     
     # GAME F
     def type_methods_multiple_choice(self):
@@ -267,29 +275,41 @@ class PythonQuiz(ValuesGenerator):
         # enter the choices
         response = ''
         this_type = None
-        objective = None
-        while this_type not in [str,list,dict] + self.exit_strings:
-            this_type = eval(input("Enter `str`, `list`, or `dict`: "))
+        objective = 'name'
+        # choose type to quiz methods
+        while this_type not in ['str','list','dict']:
+            this_type = input("Enter `str`, `list`, or `dict`: ")
+            # print(f'you chose {this_type}')
+            print()
             if this_type in self.exit_strings:
+                # print('exiting')
                 break
-        while objective not in ['key', 'value'] + self.exit_strings:  
-            objective = input("Would you guess the `key`, or the `value`: ")
+
+        # quiz on names, or on definitions
+        while objective not in ['name', 'definition']:  
+            objective = input("Would you guess the method's `name`, or it's `definition`?: ")
+            print()
+
+            if objective == 'name':
+                print(f"Which of the following `{this_type.__name__}` methods matches the definition?")
+
             if objective in self.exit_strings:
                 break 
+
+        this_type = eval(this_type)
         
         mapping = self.question_mappings[this_type]
         
-        assert isinstance(mapping, dict), 'mapping must be a dict' 
-        assert objective in ['key', 'value'], 'objective must be key or value'
+        # assert isinstance(mapping, dict), 'mapping must be a dict' 
+        # assert objective in ['key', 'value'], 'objective must be key or value'
 
         number_of_options = 4
         #### MAIN LOOP ####
 
-        ### 4 definitions, 1 key;
         response = ''
         while response not in self.exit_strings:
-
-            if objective == 'key':
+            # print('entered the menu')
+            if objective == 'name':
                 options = []
 
                 ### ensure the 4 options are distinct
@@ -306,7 +326,7 @@ class PythonQuiz(ValuesGenerator):
                 random_question = mapping[correct_key]
 
                 # create a question format dictionary
-                choices = dict(zip('abcdefghijkl',options))           
+                choices = dict(zip(string.ascii_lowercase,options))           
                 # since these are all basic python data types, we know they have .__name__ attributes.
                     # in this case, the `keys` are all pre-defined class functions; reserved names (inside the class scope).
                     # stuff like __init__ and __name__ might seem intimidating at first; but they look like that on purpose.
@@ -314,21 +334,26 @@ class PythonQuiz(ValuesGenerator):
                     # but at the end of the day, they're simply functions which operate (based) on the attributes of the class;
                     # basically they simply create it, destroy it, define it's equivalency (for sorting), what it looks like as a string.
                         # additionally you can define your own properties, which allows you to calculate a value based on other (potentially 'hidden') attributes.
+                print('********************')
+                print(f"{random_question}")
+                for x in choices.items():
+                    print(x)
+                response = input(f"")
 
-                print(f"Which of the following `{this_type.__name__}` methods does the following?")
-                pprint.pprint([choices])
-                response = input(f"{random_question} ")
-                if choices[response] == correct_key:
-                    self.increment_score()
-
-                if response not in self.exit_strings:
-                    self.increment_tries()
-                else:
+                if response in self.exit_strings:
                     break
+
+                elif choices[response] == correct_key:
+                    # tries is increased in the score setter
+                    self.score += 1
+                else:
+                    print()
+                    print(f'The correct answer was {correct_key}')
+                    self.tries+= 1
 
 
             # give 4 keys; 1 definition        
-            elif objective == 'value':
+            if objective == 'definition':
                 keys=[]
                 options = []
                 while len(options) < 4:
@@ -348,15 +373,16 @@ class PythonQuiz(ValuesGenerator):
                 print(f"Which of the `{this_type.__name__} method definitions belongs to: {my_key} ?")
                 response = input(f"")
 
-                try:
-                    if choices[response] == my_definition:
-                        self.increment_score()
-                except:
-                    pass
-                if response not in self.exit_strings:
-                    self.increment_tries()
-                else:
+
+                if response in self.exit_strings:
                     break
+                elif choices[response] == my_definition:
+                    self.score += 1
+                else:
+                    print(f'Oops! The correct answer was {my_answer}')
+                    self.tries+= 1
+        
+
   
       
     # ### GAME G
@@ -378,10 +404,10 @@ class PythonQuiz(ValuesGenerator):
 
     #         if (eval(response) == correct_value):
     #             print('you got the right value')
-    #             self.increment_score()
+    #             self.score += 1
                 
     #         if response not in self.exit_strings:
-    #             self.increment_tries()
+    #             self.tries+= 1
 
     #         else:
     #             break    
@@ -407,9 +433,9 @@ class PythonQuiz(ValuesGenerator):
     #             response = f'{response}'
     #         #print(response,  f'base[{first_index}][{second_index}]' )
     #         if response == value:#f'base[{first_index}][{second_index}]':
-    #             self.increment_score()
+    #             self.score += 1
     #         if response not in self.exit_strings:
-    #             self.increment_tries()
+    #             self.tries+= 1
     #         else:
     #             break
 #####################################################################################

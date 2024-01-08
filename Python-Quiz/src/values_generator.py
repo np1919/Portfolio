@@ -31,7 +31,7 @@ class ValuesGenerator:
             kind = random.choice(allowed_types)
         else:
             # use the argument passed to function to select a type
-            kind = random.choice([x for x in types if x in allowed_types])
+            kind = random.choice([x for x in allowed_types if x in types])
         # call the function based on the mapping
         value = mapping[kind]()
         return value
