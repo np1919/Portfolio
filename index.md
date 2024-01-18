@@ -13,27 +13,41 @@ Leadership and System Design; With 5 years hands-on experience in end-to-end bus
 ## Portfolio
 
 - [End-to-End Analytics Project](https://github.com/np1919/DunnHumby) (Fall 2023);
+  
   	- database setup and table models with SQLAlchemy
+  	  
   	- bespoke data source ingestion functions and database idempotency class
+  	  
   	- FastAPI endpoint layer with pydantic data verification
+  	  
   	- streamlit front-end
+  	  
   	- docker-compose 
 
 - [Sudoku Game Solver](https://github.com/np1919/Sudoku-Game-Solver) (Summer 2023);
+  
   	- class to solve Sudoku via human-readable logic (not random imputation)
+  	  
    	- inheritance-based NineCell for Rows, Columns, and Nonograms
    	  
 - [Python Quiz Bot](https://github.com/np1919/Python-Quiz) (Fall 2022);
+  
   	- script-based quiz bot
+  	  
   	- to practice list and dict indexing, before moving on to pandas etc. dataframe indexing
+  	  
 	- developed in my off-time while working as Python team lead   
 
 -  [Stock Functions](https://github.com/np1919/Stocks) (Nov 2021);
+  
 	- yfinance API and data visualization
    
 - [Algorithm Practice](https://github.com/np1919/Algorithms) (Nov-Dec 2021);
+  
   	- Big O notation
+
   	- recursion and tabulation
+  	  
 	- function wrappers, memo objects and caching
 	
 
@@ -49,8 +63,10 @@ I'm excited to share my work, and to learn from others in this truly fascinating
 # PROJECT DESCRIPTIONS
 ## FUNCTIONS for stock analysis
 
-- `json API` batch requests 
+- `json API` batch requests
+  
 - trend-reversal function
+  
 - conditional logic 
 
 No-commission trading apps were coming in vogue before the beginning of the pandemic, and have been mainstream since. It was an easy jump, when the course finished, to try to apply what I had been learning to stock data.
@@ -70,9 +86,6 @@ Update Feb 28 -- I've implemented a SalesTable object in my capstone which retur
 - big O notation; `time` and `space` complexity of computation.
     
 This is a freecodecamp video available on youtube which I actually started working on to prepare for the bootcamp. Having some background Python knowledge allowed me to see so much potential (for iteration) in the simple model codes that we were exposed to (in terms of logistic and linear regression, at least). With my new knowledge of pandas and numpy, the tabulation section was a breeze.
-
-- **WIP: `graph algorithms` with `queues` and `stacks`**
-    - node structure using simple dictionaries 
 
 ## `class` OBJECTS AND INHERITANCE; portfolio, holdings, and option-contract objects
 
