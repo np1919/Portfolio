@@ -2,13 +2,7 @@
 
 Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://www.linkedin.com/in/nate-poland/). Please feel free to reach out with a message or connect with me there! 
 
-Data Platforms, Migrations and Source Integrations; Your use case defines your data ingestion and storage procedure – and it needs to be as efficient and cost-effective as possible. I can assist you in integrating and automating data ingestion to your data warehouse or lake – from raw sources like event streams/message queues, APIs, cloud storage, or local flat files – and into platforms which leverage SQL (RDBMS) or NoSQL databases/document stores. 
- 
-Transformation Pipelines and Warehouse Maintenance; Maintaining a single source of truth builds credibility both within and outside your business. Leveraging programming languages such as Python, I am well-versed in testing and deploying robust and optimised transformation pipelines in local, remote or cloud-based environments. 
-
-Business Acumen and Insight Delivery; Staying abreast of long-term business vision is critical to future-proofing your processes, reducing tech debt in the future. I work with your team to understand their requirements and have the data they need reliably available – where and when they need it. 
-
-Leadership and System Design; With 5 years hands-on experience in end-to-end business operations and team management, I am well suited to unlock value in your data systems.  Your business can only be as good as your people + your processes.
+## Data Platforms, Migrations and Source Integrations; Transformation Pipelines and Warehouse Maintenance; Business Acumen and Insight Delivery; Leadership and System Design.
 
 ## Portfolio
 
