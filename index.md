@@ -26,12 +26,10 @@ Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm availabl
    	  
 - [Python Quiz Bot](https://github.com/np1919/Python-Quiz) (Fall 2022);
   
-  	- script-based quiz bot
+  	- script-based quiz bot for those new to working with data in Python
   	  
   	- to practice list and dict indexing, before moving on to pandas etc. dataframe indexing
   	  
-	- developed in my off-time while working as Python team lead   
-
 -  [Stock Functions](https://github.com/np1919/Stocks) (Nov 2021);
   
 	- yfinance API and data visualization
