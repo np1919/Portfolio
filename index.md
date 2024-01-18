@@ -2,7 +2,10 @@
 
 Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://www.linkedin.com/in/nate-poland/). Please feel free to reach out with a message or connect with me there! 
 
-## Data Platforms, Migrations and Source Integrations; Transformation Pipelines and Warehouse Maintenance; Business Acumen and Insight Delivery; Leadership and System Design.
+#### Data Platforms: Migrations and Source Integrations
+#### Transformation Pipelines and Warehouse Maintenance
+#### Business Acumen and Insight Delivery
+#### Leadership and System Design.
 
 ## Portfolio
 
