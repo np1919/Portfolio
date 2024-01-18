@@ -2,35 +2,31 @@
 
 Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://www.linkedin.com/in/nate-poland/). Please feel free to reach out with a message or connect with me there! 
 
-In my previous position as a Reporting Specialist with StackAdapt, I gained valuable real-world experience with Amazon RedShift/PostgreSQL databases; Tableau, Excel, and R. I'm happy to say I was also able to leverage the deep-dive I took into Python towards solving questions for my company and team, and working towards their specific needs and use cases.
-
-In my free time, and then as one of two Team Leads for the department's new Python code base, I was able to develop a Python class to consolidate the typical data extraction process (from two Amazon RedShift databases, and a MySQL database, depending on the state of the requesting object), allowing for simplified code maintenance and extensibility through the use of child-scripts. 
-
-The process was abstracted on a sql formula : metrics : required columns mapping file, in order to create a series of query statements to be executed at the appropriate database/table. Child scripts had a standardized .extract/.transform/.load/.run() methodology after implementing any additional steps in the child-specific \_\_init\_\_ phase.  I learned a lot in this process, and am excited to put everything I've learned about creating data pipelines, ETL, automated reporting, web APIs with real-world databases and cloud infrastructure to work at my next endeavor.  
-
 ## Summary of Portfolio
 
-- Sudoku Game Solver
+- [End-to-End Analytics Project](https://github.com/np1919/DunnHumby)
+  	- database setup and table models with SQLAlchemy
+  	- bespoke data source ingestion functions and database idempotency class
+  	- FastAPI endpoint layer with pydantic data verification
+  	- streamlit front-end
+  	- docker-compose 
+
+- [Sudoku Game Solver](https://github.com/np1919/Sudoku-Game-Solver)
   	- class to solve Sudoku via human-readable logic (not random imputation)
    	- inheritance-based NineCell for Rows, Columns, and Nonograms
    	  
-- Python Quiz Bot
+- [Python Quiz Bot](https://github.com/np1919/Python-Quiz)
   	- script-based quiz bot
   	- to practice list and dict indexing, before moving on to pandas etc. dataframe indexing
-	- developed in my off-time while working as Python team lead
+	- developed in my off-time while working as Python team lead   
+
+-  [Stock Functions](https://github.com/np1919/Stocks) (Nov 2021);
+	- yfinance API and data visualization
    
-- FastAPI with SQLAlchemy ORM and Pydantic (dataclasses)
-	- Defined database structure (SQLModel tables/SQLAlchemy declarative models) interacts cleanly 
-   	 with the API transaction schemas defined by Pydantic and FastAPI. 
-	 
-
--  stock functions (Nov 2021);
-	- using `json API` requests
-	- conditional logic
-
-- algorithms (Nov-Dec 2021);
-	- `function wrappers`
-	- `memoization` and `tabulation`
+- [Algorithm Practice](https://github.com/np1919/Algorithms) (Nov-Dec 2021);
+  	- Big O notation
+  	- recursion and tabulation
+	- function wrappers, memo objects and caching
 	
 - option-contract class object (Dec 2021);
 	- with `@property` and `@[property].setter` function wrappers
