@@ -16,13 +16,13 @@ I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://
 
 **Projects**
 
-<ins> [End-to-end Analytics Pipeline with Docker Compose](https://github.com/np1919/DunnHumby)</ins> ||| (Fall 2023)
+<ins> [End-to-end Analytics Pipeline with Docker Compose](https://github.com/np1919/DunnHumby)</ins> <div style="text-align: right"> Fall 2023 </div>
 
  - SQLAlchemy db, FastAPI web API, Streamlit frontend
  
  - Bespoke Python class for idempotent data migration from data sources
  
-<ins>QueryBuilder Data Pipeline for StackAdapt</ins> ||| (June 2022)
+<ins>QueryBuilder Data Pipeline for StackAdapt</ins> <div style="text-align: right"> June 2022 </div>
  
  - Abstracted SQL wrapper for consolidated data extraction from 3 databases (Redshift daily + archive, MySQL accounts + campaigns)
  
