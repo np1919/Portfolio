@@ -20,7 +20,7 @@ Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm availabl
  
  - Bespoke Python class for idempotent data migration from data sources
  
-_QueryBuilder Data Pipeline for StackAdapt_ | (June 2022)
+<ins>QueryBuilder Data Pipeline for StackAdapt</ins> | (June 2022)
  
  - Abstracted SQL wrapper for consolidated data extraction from 3 databases (Redshift daily + archive, MySQL accounts + campaigns)
  
