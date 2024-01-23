@@ -1,16 +1,18 @@
 # Greetings, traveler. 
 
-Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://www.linkedin.com/in/nate-poland/). Please feel free to reach out with a message or connect with me there! 
+Welcome to my Portfolio! I'm Nathaniel, and I'm looking for work as a product or team lead, analytics/data engineer, data analyst or data scientist.
+
+I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://www.linkedin.com/in/nate-poland/). Please feel free to reach out with a message or connect with me there! 
 
 **Summary of Skills**
 
-*Communication and Business Acumen*; I work with your team to understand business requirements and make the data they need reliably available – where and when they need it. 
+**Communication and Business Acumen**; I work with your team to understand *business requirements* and make the data they need *reliably available* – where and when they need it. 
 
-*Leadership and Workflow Design*; With 5 years experience working in end-to-end business operations, optimising workflows, small team management, and product delivery, I bring a unique perspective to unlock value in your data systems. Your business can only be as good as your people + your processes.
+**Leadership and Workflow Design**; With 5 years experience working in *end-to-end business operations, optimising workflows, small team management, and product delivery*, I bring a unique perspective to unlock value in your data systems. Your business can only be as good as your people + your processes.
 
-*Data Platforms, Migrations and Source Integrations*; I can assist in the maintenance, testing, and development of automated processes to ingest data from sources such as event streams/message queues, APIs, cloud storage, or local flat files into cloud storage; data platforms; SQL (RDBMS) or NoSQL databases. 
+**Data Platforms, Migrations and Source Integrations**; I can assist in the *maintenance, testing, and development of automated processes* to ingest data from sources such as event streams/message queues, APIs, cloud storage, or local flat files into cloud storage; data platforms; SQL (RDBMS) or NoSQL databases. 
  
-*Transformation Pipelines and Insight Delivery*; With significant knowledge of object-oriented programming and functional scripting, I am skilled in developing, testing and deploying robust transformation pipelines in local, remote or cloud-based environments. 
+**Transformation Pipelines and Insight Delivery**; With significant knowledge of object-oriented programming and functional scripting, I am skilled in developing, testing and *deploying robust transformation pipelines* in local, remote or cloud-based environments. 
 
 **Projects**
 
