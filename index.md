@@ -16,23 +16,23 @@ I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://
 
 **Projects**
 
-<ins> [End-to-end Analytics Pipeline with Docker Compose](https://github.com/np1919/DunnHumby)</ins> <div style="text-align: right"> Fall 2023 </div>
+<ins> [End-to-end Analytics Pipeline with Docker Compose](https://github.com/np1919/DunnHumby)</ins><div style="text-align: right"> Fall 2023</div>
 
  - SQLAlchemy db, FastAPI web API, Streamlit frontend
  
  - Bespoke Python class for idempotent data migration from data sources
  
-<ins>QueryBuilder Data Pipeline for StackAdapt</ins> <div style="text-align: right"> June 2022 </div>
+<ins>QueryBuilder Data Pipeline for StackAdapt</ins><div style="text-align: right"> June 2022</div>
  
  - Abstracted SQL wrapper for consolidated data extraction from 3 databases (Redshift daily + archive, MySQL accounts + campaigns)
  
  - Inheritance-based core structure allows for iteration of extract(), .transform(), .load(), .run() functions across child scripts
 
-<ins>[Python Quiz Bot](https://github.com/np1919/Python-Quiz)</ins> ||| (October 2022)
+<ins>[Python Quiz Bot](https://github.com/np1919/Python-Quiz)</ins><div style="text-align: right">October 2022</div>
 
  - Team mentorship and user experience
 
-<ins>[The Complete Journey by DunnHumby](https://github.com/np1919/DTCJ)</ins> ||| (Feb 2022)
+<ins>[The Complete Journey by DunnHumby](https://github.com/np1919/DTCJ)</ins>><div style="text-align: right">February 2022</div>
 
  - Python package for data transformation 
  
@@ -42,11 +42,11 @@ I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://
  
  - FPGrowth RecommenderSystem class
 
-<ins>[Dynamic Programming and Algorithms](https://github.com/np1919/Algorithms)</ins> ||| (Nov/Dec 2021)
+<ins>[Dynamic Programming and Algorithms](https://github.com/np1919/Algorithms)</ins>><div style="text-align: right">December 2021</div>
 
  - Recursion (memoization, caching, function wrappers) and Tabulation (pandas)
 
-<ins>[Stock Analysis](https://github.com/np1919/Stocks)</ins> ||| (October/November 2021)
+<ins>[Stock Analysis](https://github.com/np1919/Stocks)</ins>><div style="text-align: right">November 2021</div>
 
  - yfinance API; bollinger bands, trend reversals
  
