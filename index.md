@@ -16,7 +16,7 @@ I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://
 
 **Projects**
 
-[End-to-end Analytics Pipeline with Docker Compose](https://github.com/np1919/DunnHumby) (Fall 2023) 
+<ins> [End-to-end Analytics Pipeline with Docker Compose](https://github.com/np1919/DunnHumby)</ins> | (Fall 2023)
 
  - SQLAlchemy db, FastAPI web API, Streamlit frontend
  
@@ -28,11 +28,11 @@ I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://
  
  - Inheritance-based core structure allows for iteration of extract(), .transform(), .load(), .run() functions across child scripts
 
-[Python Quiz Bot](https://github.com/np1919/Python-Quiz) (October 2022)
+<ins>[Python Quiz Bot](https://github.com/np1919/Python-Quiz)</ins> | (October 2022)
 
  - Team mentorship and user experience
 
-[The Complete Journey by DunnHumby](https://github.com/np1919/DTCJ) (Feb 2022)
+<ins>[The Complete Journey by DunnHumby](https://github.com/np1919/DTCJ)</ins> | (Feb 2022)
 
  - Python package for data transformation 
  
@@ -42,11 +42,11 @@ I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://
  
  - FPGrowth Recommender System class
 
-[Dynamic Programming and Algorithms](https://github.com/np1919/Algorithms) (Nov/Dec 2021)
+<ins>[Dynamic Programming and Algorithms](https://github.com/np1919/Algorithms)</ins> | (Nov/Dec 2021)
 
  - Recursion (memoization, caching, function wrappers) and Tabulation (pandas)
 
-[Stock Analysis](https://github.com/np1919/Stocks) (October/November 2021)
+<ins>[Stock Analysis](https://github.com/np1919/Stocks)</ins> | (October/November 2021)
 
  - yfinance API; bollinger bands, trend reversals
  
