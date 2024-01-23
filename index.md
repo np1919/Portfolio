@@ -13,6 +13,7 @@ Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm availabl
 *Transformation Pipelines and Insight Delivery*; With significant knowledge of object-oriented programming and functional scripting, I am skilled in developing, testing and deploying robust transformation pipelines in local, remote or cloud-based environments. 
 
 **Projects**
+
 [End-to-end Analytics Pipeline with Docker Compose](https://github.com/np1919/DunnHumby) | (Fall 2023) 
 
 SQLAlchemy db, FastAPI web API, Streamlit frontend
