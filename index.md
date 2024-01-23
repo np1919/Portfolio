@@ -22,7 +22,7 @@ I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://
  
  - Bespoke Python class for idempotent data migration from data sources
  
-<ins>QueryBuilder Data Pipeline for StackAdapt</ins>(June 2022)
+<ins>QueryBuilder Data Pipeline for StackAdapt</ins> (June 2022)
  
  - Abstracted SQL wrapper for consolidated data extraction from 3 databases (Redshift daily + archive, MySQL accounts + campaigns)
  
