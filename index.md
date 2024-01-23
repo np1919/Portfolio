@@ -16,41 +16,41 @@ Welcome to my Portfolio! I'm Nathaniel, my friends call me Ned, and I'm availabl
 
 [End-to-end Analytics Pipeline with Docker Compose](https://github.com/np1919/DunnHumby) | (Fall 2023) 
 
-SQLAlchemy db, FastAPI web API, Streamlit frontend
-
-Bespoke Python class for idempotent data migration from data sources
-
-QueryBuilder Data Pipeline | (June 2022)
-
-Abstracted SQL wrapper for consolidated data extraction from 3 databases (Redshift daily + archive, MySQL accounts + campaigns)
-
-Inheritance-based core structure allows for iteration of extract(), .transform(), .load(), .run() functions across child scripts
+ SQLAlchemy db, FastAPI web API, Streamlit frontend
+ 
+ Bespoke Python class for idempotent data migration from data sources
+ 
+ QueryBuilder Data Pipeline | (June 2022)
+ 
+ Abstracted SQL wrapper for consolidated data extraction from 3 databases (Redshift daily + archive, MySQL accounts + campaigns)
+ 
+ Inheritance-based core structure allows for iteration of extract(), .transform(), .load(), .run() functions across child scripts
 
 [Python Quiz Bot](https://github.com/np1919/Python-Quiz) | (October 2022)
 
-Team mentorship and user experience
+ Team mentorship and user experience
 
 [The Complete Journey by DunnHumby](https://github.com/np1919/DTCJ) | (Feb 2022)
 
-Python package for data transformation 
-
-Data investigation and sales analysis
-
-Customer Segmentation using Supervised and Unsupervised Learning
-
-FPGrowth Recommender System class
+ Python package for data transformation 
+ 
+ Data investigation and sales analysis
+ 
+ Customer Segmentation using Supervised and Unsupervised Learning
+ 
+ FPGrowth Recommender System class
 
 [Dynamic Programming and Algorithms](https://github.com/np1919/Algorithms) | (Nov/Dec 2021)
 
-Recursion (memoization, caching, function wrappers) and Tabulation (pandas)
+ Recursion (memoization, caching, function wrappers) and Tabulation (pandas)
 
 [Stock Analysis](https://github.com/np1919/Stocks) | (October/November 2021)
 
-yfinance API; bollinger bands, trend reversals
-
-Data visualization
-
-Bespoke ‘OptionsContract’ and `Holdings` class
+ yfinance API; bollinger bands, trend reversals
+ 
+ Data visualization
+ 
+ Bespoke ‘OptionsContract’ and `Holdings` class
 
 
 
