@@ -28,11 +28,11 @@ I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://
  
  - Inheritance-based core structure allows for iteration of extract(), .transform(), .load(), .run() functions across child scripts
 
-<ins>[Python Quiz Bot](https://github.com/np1919/Python-Quiz)</ins>(October 2022)
+<ins>[Python Quiz Bot](https://github.com/np1919/Python-Quiz)</ins> (October 2022)
 
  - Team mentorship and user experience
 
-<ins>[The Complete Journey by DunnHumby](https://github.com/np1919/DTCJ)</ins>(February 2022)
+<ins>[The Complete Journey by DunnHumby](https://github.com/np1919/DTCJ)</ins> (February 2022)
 
  - Python package for data transformation 
  
@@ -42,11 +42,11 @@ I'm available at LinkedIn at [https://www.linkedin.com/in/nate-poland/](https://
  
  - FPGrowth RecommenderSystem class
 
-<ins>[Dynamic Programming and Algorithms](https://github.com/np1919/Algorithms)</ins>(December 2021)
+<ins>[Dynamic Programming and Algorithms](https://github.com/np1919/Algorithms)</ins> (December 2021)
 
  - Recursion (memoization, caching, function wrappers) and Tabulation (pandas)
 
-<ins>[Stock Analysis](https://github.com/np1919/Stocks)</ins>>(November 2021)
+<ins>[Stock Analysis](https://github.com/np1919/Stocks)</ins> (November 2021)
 
  - yfinance API; bollinger bands, trend reversals
  
